@@ -7,4 +7,4 @@ Miles R. Porter
 June 3, 2017
 mporter@paintedharmony.com
 
-Please refer to license.txt for licensing information.
+Please refer to LICENSE.txt for licensing information.
