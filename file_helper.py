@@ -25,9 +25,10 @@ class FileHelper:
         new_file_name = filename.replace(".json", ".csv")
 
         file = open(new_file_name, "w")
-        file.write("timestamp, value\n")
+        # file.write("timestamp, value\n")
         for k in sorted(data.keys()):
-            file.write("{0}, {1}\n".format(k.isoformat(), data[k]))
+            #file.write("{0}, {1}\n".format(k.strftime("%Y-%m-%dT%H:%M:%S"), data[k]))
+            file.write("{0}\n".format(data[k]))
 
         return new_file_name
 
